@@ -39,3 +39,33 @@
     .foot{    
        background-color: var(--2black);
     }
+    .navlink:hover,
+        .navlink:focus{
+        color: red;
+    }
+    .navcont:hover,
+    .navcount:focus{
+        color: red;
+
+    }
+
+    .logo:hover,
+    .logo:focus{
+        color: red;
+    }
+    .footlink:hover,
+    .footlink:focus{
+        color: red;
+    }
+    .navfhone:hover,
+    .navfhone:focus{
+        color:red
+    }
+    .button:hover,
+    .button:focus{
+        color:yellow
+    }
+.button{
+    color: var(--mainwhite);
+    background-color: var(--mainblue);
+}
