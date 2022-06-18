@@ -1,0 +1,41 @@
+:root{
+    --mainblack:#212121;
+    --mainblue:#2196F3;
+    --mainwhite:#FFFFFF;
+    --maingrate:#757575;
+    --2black:#2F303A;
+    --2gray:#ECECEC;
+}
+/*Design header*/
+
+.navlink{
+    color: var(--mainblue);
+}
+.navcont{ color: var(--2black);
+
+}
+.navfhone{
+    color: var(--maingrate);
+
+}
+.advantages-head{
+    color: var(--mainblack);
+}
+.advantages-text{
+    color: var(--maingrate);
+    }
+    .actvity-head {
+        color: var(--mainblack);
+    }
+    .team-photo {
+        color: var(--mainblack);
+    }
+    .team-text{
+        color: var(--maingrate);
+    }
+    .footlink{
+        color: var(--mainwhite);
+    }
+    .foot{    
+       background-color: var(--2black);
+    }
