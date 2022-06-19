@@ -5,6 +5,7 @@
     --maingrate:#757575;
     --2black:#2F303A;
     --2gray:#ECECEC;
+    --3gray:#F5F4FA;
 }
 /*Design header*/
 
@@ -14,58 +15,58 @@
 .navcont{ color: var(--2black);
 
 }
-.navfhone{
-    color: var(--maingrate);
 
-}
-.advantages-head{
+.advantages-head,
+.actvity-head,
+.team-photo{
     color: var(--mainblack);
 }
-.advantages-text{
+.advantages-text,
+.team-text
+.navfhone{
     color: var(--maingrate);
     }
-    .actvity-head {
-        color: var(--mainblack);
-    }
-    .team-photo {
-        color: var(--mainblack);
-    }
-    .team-text{
-        color: var(--maingrate);
-    }
-    .footlink{
+    
+           .footlink{
         color: var(--mainwhite);
     }
     .foot{    
        background-color: var(--2black);
     }
-    .navlink:hover,
-        .navlink:focus{
-        color: red;
-    }
+ 
     .navcont:hover,
-    .navcount:focus{
+    .navcount:focus,
+         .navlink:hover,
+         .navlink:focus,
+         .logo:hover,
+         .logo:focus,
+          .footlink:hover,
+          .footlink:focus,
+          .navfhone:hover,
+          .navfhone:focus
+    {
         color: red;
 
     }
-
-    .logo:hover,
-    .logo:focus{
-        color: red;
-    }
-    .footlink:hover,
-    .footlink:focus{
-        color: red;
-    }
-    .navfhone:hover,
-    .navfhone:focus{
-        color:red
-    }
-    .button:hover,
+      .button:hover,
     .button:focus{
         color:yellow
     }
 .button{
     color: var(--mainwhite);
     background-color: var(--mainblue);
+}
+.button-list:hover,
+.button-list:focus{
+    color: var(--mainblue);
+}
+.button-list{
+    background-color: var(--3gray);
+    color: var(--mainblack);
+}
+.cards h2{
+    color: var(--mainblack);
+}
+.cards p{
+    color: var(--maingrate);
 }

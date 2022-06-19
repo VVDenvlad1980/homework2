@@ -2,53 +2,101 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
 
+<body>
     <header>
         <!--Cap of the site-->
         <nav>
-            <a href="">
+            <a class="logo" href="">
                 <img src="/images/WebStudio.svg" alt="logo of company">
                 Logo
             </a>
             <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a class="navlink" href="">Studio</a></li>
+                <li><a class="navcont" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="navcont" href="">Contacts</a></li>
             </ul>
 
         </nav>
         <ul>
-            <li> <a href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a href="tel:+380961111111"> +38 096 111 11 11 </a></li>
+            <li> <a class="navlink" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+            <li><a class="navfhone" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
         </ul>
 
     </header>
 <body>
-    
+    <main>
+    <!--List of links-->
+        <section>
+            <ul>
+                <li><a href="./portfolio.html"><button class ="button-list">ALL</button></a></li>
+                <li><a><button class ="button-list">Web-sites</button></a></li>
+                <li><a></a><button class ="button-list">Design</button></li>
+                <li><a><button class ="button-list">Marketing</button></a></li>
+
+
+            </ul>
+        </section>
+        <!--List of pictuers-cards-->
+
+        <section class="cards">
+<ul>
+    <li> <img src="./images/portfolio_images/texnokryk.jpg"> 
+    <h2>Texnokruk</h2> <p>Web-site</p></li>
+    <li><img src="./images/portfolio_images/jamp.jpg">
+    <h2>Постер New Orlean vs Golden Star</h2>
+    <p>Design</p></li>
+    <li><img src="./images/portfolio_images/Restoran.jpg">
+    <h2>Ресторан Seafood</h2>
+    <p>ADD</p></li>
+    <li><img src="./images/portfolio_images/Headfone.jpg">
+    <h2>Проект Prime</h2>
+    <p>Marceting</p></li>
+    <li><img src="./images/portfolio_images/Boxeimg.jpg">
+    <h2>Проект Boxes</h2>
+    <p>ADD</p></li>
+    <li><img src="./images/portfolio_images/inspiration.jpg">
+        <h2>Inspiration has no Borders</h2>
+        <p>Web-site</p>
+    </li>
+    <li><img src="./images/portfolio_images/Magazin.jpg">
+    <h2>Издание Limited Edition</h2>
+    <p>Design</p></li>
+    <li><img src="./images/portfolio_images/Progektmg.jpg">
+    <h2>Проект LAB</h2>
+    <p>Marceting</p></li>
+    <li><img src="./images/portfolio_images/Growingjpg.jpg">
+    <h2>Growing Business</h2>
+    <p>ADD</p></li>
+   
+</ul>
+        </section>
+    </main>
+
 </body>
 
-    <footer>
-        <a href="/images/Footerbg.png"></a>
+    <footer class="foot">
+        <div>
+            <a class="logo" href="">
+                <img src="./images/WebStudio (1).jpg" alt="logo of company">
+                Logo
+            </a>
     
-        <a href="">
-            <img src="/images/WebStudio.svg" alt="logo of company">
-            Logo </a>
+            <address>
+                <ul>
+                    <li><a class="footlink" href="https://goo.gl/maps/SyG1egsGHd4TxLhdA">г. Киев, пр-т Леси Украинки, 26
+                        </a> </li>
     
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/SyG1egsGHd4TxLhdA">г. Киев, пр-т Леси Украинки, 26 </a> </li>
+                    <li><a class="navfhone" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="navfhone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                </ul>
+            </address>
     
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
-        </address>
-    
-    
+        </div>
     </footer>
-    </html>
