@@ -2,44 +2,56 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./css/style.css">
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeWork1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+      
+        <link rel="stylesheet" href="./css/styleSecond.css">
 </head>
 
 <body>
     <header>
         <!--Cap of the site-->
+        <div class= "conteiner">
         <nav>
-            <a class="logo" href="">
-                <img  src="./images/WebStudio.svg" alt="logo of company">
-                Logo
+            <a class= "nav-head" href=""><span class="word-first"> Web </span><span class="word-second"> Studio </span></a>"
             </a>
+            <ul class="navlist-first" >
+                <li><a class="navstudio" href="./index.html">Studio</a></li>
+                <li><a class="navportfolio" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="navcont" href="">Contacts</a></li>
+                </ul>
+            </nav>
             <ul>
-                <li><a  class="navlink"href="">Studio</a></li>
-                <li><a class="navcont"href="./portfolio.html">Portfolio</a></li>
-                <li><a class="navcont"href="">Contacts</a></li>
-            </ul>
-            
-        </nav>
-        <ul>
-            <li> <a class="navlink" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a class="navfhone"href="tel:+380961111111"> +38 096 111 11 11 </a></li>
+            <li> <a class="navemail" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+            <li><a class="navfhone-header" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
         </ul>
-
-    </header>
+      
+        </div>
+        </header>
     <main>
         <!--Hero-->
-        <section>
-            <h1>Effective solutions for your business </h1>
-           <button class="button" type = "button">Order service</button>
+        <section class="hero">
+            <div class="hero-contener">
+            <h1 class="hero-title">Effective solutions for your business </h1>
+           <button class="button-hero" type = "button">Order service</button>
+    </div>
         </section>
         <!--Our advantages-->
         <section class="advantages">
+            <div>
             <h2>Hidden tag</h2>
-            <ul>
+            <ul class="advantages-list">
                 <li>
                     <h2 class="advantages-head">attention to detail</h2>
                     <p class="advantages-text">Text</p>
@@ -54,19 +66,23 @@
                     <h2 class="advantages-head">Modern technologies</h2>
                     <p class="advantages-text">Text</p>
             </ul>
+            </div>
         </section>
         <!--our activity picture-->
         <section class="activity">
+            <div>
             <h2 class="actvity-head">what we do</h2>
-            <ul>
-                <li><img src="/images/box 1.jpg" width="200" alt="pictures1"></li>
-                <li><img src="/images/box 2.jpg" width="200" alt="pictures2"></li>
-                <li><img src="/images/box 3.jpg" width="200" alt="pictures3"></li>
+            <ul class="activity-list">
+                <li class="activity-list-li"><img src="/images/box 1.jpg" width="200" alt="pictures1"></li>
+                <li class="activity-list-li"><img src="/images/box 2.jpg" width="200" alt="pictures2"></li>
+                <li class="activity-list-li"><img src="/images/box 3.jpg" width="200" alt="pictures3"></li>
             </ul>
+            </div>
         </section>
 
         <!--Our team-->
         <section>
+            <div>
             <h2 class="team-head">Our team</h2>
             <ul>
                 <li class="team-text"><img  src="/images/team_card.jpg" width="200" alt="picters">
@@ -83,28 +99,27 @@
                 </li>
             </ul>
 
-
+</div>
         </section>
 </main>
 
-        <footer class="foot">
-           <div>
-            <a class="logo" href="">
-                <img  src="./images/WebStudio (1).jpg" alt="logo of company">
-                Logo
-            </a>
-
- <address>
-<ul>        
-<li><a class="footlink" href="https://goo.gl/maps/SyG1egsGHd4TxLhdA">г. Киев, пр-т Леси Украинки, 26 </a> </li>
-
-<li><a class="navfhone" href="mailto:info@example.com">info@example.com</a></li>
-<li><a  class="navfhone"href="tel:+380991111111">+38 099 111 11 11</a></li>
-</ul>
-</address>
-
-</div>
-</footer>
+        <footer class="downfoot">
+            <div>
+                <a class= "nav-head" href=""><span class="foot-first">Web</span><span class="foot-second">Studio</span></a>
+                </a>
+        
+                <address class="adress-footer">
+                    <ul>
+                        <li><a class="footlink" href="https://goo.gl/maps/SyG1egsGHd4TxLhdA">г. Киев, пр-т Леси Украинки, 26
+                            </a> </li>
+        
+                        <li><a class="email-foot" href="mailto:info@example.com">info@example.com</a></li>
+                        <li><a class="fhone-foot" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+        
+            </div>
+        </footer>
 
 
 

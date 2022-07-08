@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', 'Raleway' , 'Oleo Script' ;
+    font-weight 400px;
+    background-color: var(--mainwhite);
+    text-decoration: none;
+    font-style: normal;
+    color:var(--mainblack)
+
+}
+
+button {
+    cursor: pointer;
+}
+
+
+:root {
+    --mainblack: #212121;
+    --mainblue: #2196F3;
+    --mainwhite: #FFFFFF;
+    --maingrate: #757575;
+    --2black: #2F303A;
+    --2gray: #ECECEC;
+    --3gray: #F5F4FA;
+}
+/*Header with design*/
+/*Logo*/
+.word-first {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--mainblue);
+    text-decoration: none;
+}
+
+.word-second {
+    font-family: Oleo Script;
+    font-size: 26px;
+font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--mainblack);
+    text-decoration: none;}
+    /*hover for link*/
+    .navstudio:hover,
+    .navstudio:focus,
+    .navemail:hover,
+    .navemail:focus{
+        color:var(--mainblue)
+    }
+
+    .navstudio,.navportfolio,.navcont,.navemail{
+        
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: var(--mainblack);
+    }
+    .navfhone-header,.navemail{
+        color: var(--maingrate);
+    }
+        /*hover for link*/
+        .navstudio:hover,
+        .navstudio:focus,
+        .navemail:hover,
+        .navemail:focus,
+        .navportfolio:hover,
+        .navportfolio:focus {
+            color: var(--mainblue)
+        }
+        /*hero*/
+        /*hero-title*/
+        .hero{
+            background-color: var(--2black);
+        }
+        .hero-contener{
+            text-align: center;
+        }
+        .hero-title{
+                font-size: 44px;
+                font-weight: 900;
+                line-height: 1.36;
+                letter-spacing: 0.06em;
+                color: var(--mainwhite);
+                text-align: center;
+        }
+/*button for hero*/
+
+.button-hero{ 
+    display: inline-block;
+        background-color: var(--mainblue);
+        color: var(--mainwhite);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.06em;
+        text-decoration: none;
+        text-align: center;
+
+}
+    /*Footer*/
+    .downfoot{
+        background-color:var(--2black);
+        font-style: normal;
+        text-decoration: none;
+    }
+    address,header,footer,a{ 
+        font-style: normal;
+        text-decoration: none;
+    }
+    /*Logo footer*/
+        .foot-first {
+            font-family: Raleway;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            font-style: normal;
+            color: var(--mainblue);
+            text-decoration: none;
+        }
+    
+        .foot-second {
+         font-family: Oleo Script;
+         font-size: 26px;
+        font-style: normal;
+         line-height: 1.38;
+         letter-spacing: 0.03em;
+         text-align: left;
+         color: var(--mainwhite);
+         text-decoration: none;
+                }
+
+                /*link footer*/
+ .footlink:hover,
+ .footlink:focus{
+color: var(--mainblue);  }
+
+.footlink{
+  font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;
+color: var(--mainwhite);
+text-decoration: none;
+  }
+   .email-foot,.fhone-foot{
+color: var(--maingrate);
+    font-size: 14px;
+    line-height:1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+                   }
+   
+
+        

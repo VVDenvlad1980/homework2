@@ -7,38 +7,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet">
+        
+        <link rel="stylesheet" href="./css/styleSecond.css">
 </head>
 
 <body>
     <header>
         <!--Cap of the site-->
-        <nav>
-            <a class="logo" href="">
-                <img src="./images/WebStudio.svg" alt="logo of company">
-                Logo
-            </a>
+        <div class="conteiner">
+            <nav>
+                <a class="nav-head" href=""><span class="word-first"> Web </span><span class="word-second"> Studio
+                    </span></a>"
+                </a>
+                <ul class="navlist-first">
+                    <li><a class="navstudio" href="./index.html">Studio</a></li>
+                    <li><a class="navportfolio" href="./portfolio.html">Portfolio</a></li>
+                    <li><a class="navcont" href="">Contacts</a></li>
+                </ul>
+            </nav>
             <ul>
-                <li><a class="navlink" href="./index.html">Studio</a></li>
-                <li><a class="navcont" href="">Portfolio</a></li>
-                <li><a class="navcont" href="">Contacts</a></li>
+                <li> <a class="navemail" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+                <li><a class="navfhone-header" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
             </ul>
-
-        </nav>
-        <ul>
-            <li> <a class="navlink" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a class="navfhone" href="tel:+380961111111"> +38 096 111 11 11 </a></li>
-        </ul>
-
+    
+        </div>
     </header>
-<body>
+
     <main>
     <!--List of links-->
-        <section>
-            <ul>
-                <li><a href="./portfolio.html"><button class ="button-list">ALL</button></a></li>
-                <li><a><button class ="button-list">Web-sites</button></a></li>
-                <li><a></a><button class ="button-list">Design</button></li>
-                <li><a><button class ="button-list">Marketing</button></a></li>
+        <section class="button" >
+            <ul class="button-list">
+                <li><a href=""> <button class ="button-list-all" type="button">ALL</button></a></li>
+                <li><button class ="button-list-web" type="button">Web-sites</button></li>
+                <li><button class ="button-list-design" type="button">Design</button></li>
+                <li><button class ="button-list-mark" type="button">Marketing</button></li>
 
 
             </ul>
@@ -47,31 +57,31 @@
 
         <section class="cards">
 <ul>
-    <li> <img src="./images/portfolio_images/texnokryk.jpg"> 
+    <li> <img src="./images/portfolio_images/texnokryk.jpg" alt="pictures" width="200"> 
     <h2>Texnokruk</h2> <p>Web-site</p></li>
-    <li><img src="./images/portfolio_images/jamp.jpg">
+    <li><img src="./images/portfolio_images/jamp.jpg" alt="pictures" width="200">
     <h2>Постер New Orlean vs Golden Star</h2>
     <p>Design</p></li>
-    <li><img src="./images/portfolio_images/Restoran.jpg">
+    <li><img src="./images/portfolio_images/Restoran.jpg" alt="pictures" width="200">
     <h2>Ресторан Seafood</h2>
     <p>ADD</p></li>
-    <li><img src="./images/portfolio_images/Headfone.jpg">
+    <li><img src="./images/portfolio_images/Headfone.jpg" alt="pictures" width="200">
     <h2>Проект Prime</h2>
     <p>Marceting</p></li>
-    <li><img src="./images/portfolio_images/Boxeimg.jpg">
+    <li><img src="./images/portfolio_images/Boxeimg.jpg" alt="pictures" width="200">
     <h2>Проект Boxes</h2>
     <p>ADD</p></li>
-    <li><img src="./images/portfolio_images/inspiration.jpg">
+    <li><img src="./images/portfolio_images/inspiration.jpg" alt="pictures" width="200">
         <h2>Inspiration has no Borders</h2>
         <p>Web-site</p>
     </li>
-    <li><img src="./images/portfolio_images/Magazin.jpg">
+    <li><img src="./images/portfolio_images/Magazin.jpg" alt="pictures" width="200">
     <h2>Издание Limited Edition</h2>
     <p>Design</p></li>
-    <li><img src="./images/portfolio_images/Progektmg.jpg">
+    <li><img src="./images/portfolio_images/Progektmg.jpg" alt="pictures" width="200">
     <h2>Проект LAB</h2>
     <p>Marceting</p></li>
-    <li><img src="./images/portfolio_images/Growingjpg.jpg">
+    <li><img src="./images/portfolio_images/Growingjpg.jpg" alt="pictures" width="200">
     <h2>Growing Business</h2>
     <p>ADD</p></li>
    
@@ -81,20 +91,18 @@
 
 </body>
 
-    <footer class="foot">
+    <footer class="downfoot">
         <div>
-            <a class="logo" href="">
-                <img src="./images/WebStudio (1).jpg" alt="logo of company">
-                Logo
+            <a class="nav-head" href=""><span class="foot-first">Web</span><span class="foot-second">Studio</span></a>
             </a>
     
-            <address>
+            <address class="adress-footer">
                 <ul>
                     <li><a class="footlink" href="https://goo.gl/maps/SyG1egsGHd4TxLhdA">г. Киев, пр-т Леси Украинки, 26
                         </a> </li>
     
-                    <li><a class="navfhone" href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a class="navfhone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    <li><a class="email-foot" href="mailto:info@example.com">info@example.com</a></li>
+                    <li><a class="fhone-foot" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </address>
     
